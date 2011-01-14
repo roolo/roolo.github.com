@@ -1,0 +1,9 @@
+--- 
+name: about
+layout: post
+title: About
+time: 2010-12-21 20:46:00.002000 +01:00
+tags: []
+
+---
+This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.

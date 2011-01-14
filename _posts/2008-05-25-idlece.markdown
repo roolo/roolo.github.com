@@ -1,0 +1,18 @@
+--- 
+name: idlece
+layout: post
+title: IdleCE
+time: 2008-05-25 02:30:00 +02:00
+tags: 
+- "Syst\xC3\xA9m"
+- !binary |
+  dsO9dm9qw6HFmQ==
+
+- "programov\xC3\xA1n\xC3\xAD"
+- "mobiln\xC3\xAD"
+- !binary |
+  dsO9dm9q
+
+- Mobily
+---
+<!--texy--><!--texy-->Tento post pojednává o zprovoznění Pythonýrského editoru textu Idle na Kaiserovi( divil bych se kdyby se postup na jiných zařízeních lišil ).<br/><br/>Vycházím z návodu na <a title="python+zope++:: Python on PocketPC" href="http://myzope.kedai.com.my/blogs/kedai/66" target="_blank">http://myzope.kedai.com.my/blogs/kedai/66</a>. Pokud je již článek smazán v příloze je jeho kopie( <a title="python+zope++:: Python on PocketPC" rel="attachment wp-att-11" href="http://www.rooland.cz/?attachment_id=11">python+zope++:: Python on PocketPC</a> ).<br/><br/><a name='more'></a><br/><br/>Editor je napsaný v jazyce Python. Pro fungování IdleCE a jiných Pythoních aplikací je potřeba mít nainstalovaný <a title="Python Windows CE port" href="http://sourceforge.net/projects/pythonce/" target="_blank">PythonCE</a>( v mém případě je to<br/><pre class="western">Python 2.5 (release25-maint, Oct  4 2007, 14:58:33) [MSC v.1400 32 bit (ARM)] on win32</pre><br/>- zobrazí se po spuštění Python interpretru ). Další co budete potřebovat je Tkiner - grafická knihovna, která je v případě IdleCE použita pro napsání grafického rozhraní. Ke stažení je k dispozici na stejné adrese jako PythonCE( hledejte u verze <a id="pkg0_7rel0_0" title="Python Windows CE port - Python/CE 2.3.4-1" href="http://sourceforge.net/project/showfiles.php?group_id=104228&amp;package_id=112011&amp;release_id=254865" target="_blank">Python/CE 2.3.4-1</a> ). Ze staženého zipu extrahujte obsah adresáře<br/><pre>tcl8.4.3</pre><br/>do rootu média na kterém máte Python nainstalovaný( v mém případě je to karta, takže do<br/><pre>Storage Card</pre><br/>). Obsah druhého adresáře extrahujte do systémového v paměti vašeho zařízení. Existuje jistě i jiná dvojice cílových adresářů( a nemůsí to být dvojice:) ), ale tuhle jsem zkusil jako první a fungovalo to:). Pokud zkusíte spustit Idle před kopírováním Tkiner na zařízení, intepretr vyhodí chybovou hlášku, která obsahuje cesty ve kterých Python knihovny hledá. Nyní si stáhněte IdleCE. <a title="IdleCE" href="http://kitsu.petesdomain.com/files/WinCE/IdleCE-2.0.zip">http://kitsu.petesdomain.com/files/WinCE/IdleCE-2.0.zip</a>. Nyní již můžete spustit IdleCE.py.<br/><br/>Doufám, že vše funguje tak jak má. Pokud ne, tak napište a zkusíme najít nějaké řešení.
