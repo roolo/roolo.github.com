@@ -1,0 +1,86 @@
+
+body {
+    margin-top: 0px;
+    background: #FAFAFA url('/images/site-background.jpg') repeat-x fixed 50% 0%;
+    color:      #CCC;
+}
+
+h1 a {
+    color: #CCC;
+    font-size:  48px;
+}
+
+img {
+    border: none;
+    vertical-align: text-top;
+}
+
+#header {
+    text-align: left;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header img {
+    padding-top:  0px;
+}
+
+#header > *{
+    display: inline;
+
+}
+
+#site-content {
+    text-align: center;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent url('/images/black50.png') repeat scroll 0% 0%;
+    padding: 5px 10px 0px 10px;
+
+    overflow: hidden;
+}
+
+#main-content {
+    float: left;
+    display: inline;
+    font-family: Ubuntu,sans-serif;
+    
+    width:  70%
+}
+
+#sidebar {
+    float: right;
+    width: 29%;
+}
+
+#footer{
+    float:  left;
+
+}
+.clearer { clear: both;}
+
+.post {
+    background-color: #1C1C1C;
+    text-align: justify;
+    margin: 20px 1px 20px;
+    padding: 15px 20px;
+}
+
+a {
+    color: #F90;
+}
+
+.post p, .post li {
+    font-size: 12px;
+}
+
+p.post-excerpt {
+    margin-top: 5px;  
+    text-align: justify;
+    
+    font-size:  14px;
+}
+
