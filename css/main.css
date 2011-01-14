@@ -48,6 +48,9 @@ img {
     display: inline;
     font-family: Ubuntu,sans-serif;
     
+}
+
+#main-content.main-page {
     width:  70%
 }
 
