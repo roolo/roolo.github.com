@@ -2,7 +2,7 @@
 name: linux-a-nfs-sdileni-v-linuxu
 layout: post
 title: "Linux a NFS ( Sdílení v Linuxu )"
-time: 2008-06-07 01:22:00 +02:00
+date: 2008-06-07 01:22:00 +02:00
 topics: 
 - server
 - pokročilý

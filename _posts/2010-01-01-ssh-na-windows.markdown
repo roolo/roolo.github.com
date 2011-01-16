@@ -2,7 +2,7 @@
 name: ssh-na-windows
 layout: post
 title: SSH na Windows
-time: 2010-01-01 00:59:00 +01:00
+date: 2010-01-01 00:59:00 +01:00
 topics: 
 - server
 - pokročilý

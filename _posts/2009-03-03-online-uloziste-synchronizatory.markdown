@@ -2,7 +2,7 @@
 name: online-uloziste-synchronizatory
 layout: post
 title: "Online úložiště/synchronizátory"
-time: 2009-03-03 23:10:00 +01:00
+date: 2009-03-03 23:10:00 +01:00
 topics: 
 - Síť
 - Služby

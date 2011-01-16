@@ -13,7 +13,7 @@ title: Blogysek Mailicka
 </p>
 <p>
 <span style="color: #999;">Publikováno</span>
-<span style="color: #F90;">{{post.date | date:"%d.%m. %Y"}}</span>
+<span style="color: #F90;">{{post.date | date:"%d.%m.%Y %H:%M"}}</span>
 </p>
 </div>
 {% endfor %}

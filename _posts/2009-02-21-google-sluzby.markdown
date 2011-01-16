@@ -2,7 +2,7 @@
 name: google-sluzby
 layout: post
 title: "Google služby"
-time: 2009-02-21 23:28:00 +01:00
+date: 2009-02-21 23:28:00 +01:00
 topics: 
 - Síť
 - Služby

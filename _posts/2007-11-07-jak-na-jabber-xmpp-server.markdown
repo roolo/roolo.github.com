@@ -2,7 +2,7 @@
 name: jak-na-jabber-xmpp-server
 layout: post
 title: Jak na Jabber/XMPP server
-time: 2007-11-07 01:32:00 +01:00
+date: 2007-11-07 01:32:00 +01:00
 topics: 
 - server
 - "Systém"

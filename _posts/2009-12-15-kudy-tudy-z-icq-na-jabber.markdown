@@ -2,7 +2,7 @@
 name: kudy-tudy-z-icq-na-jabber
 layout: post
 title: Kudy tudy z ICQ na Jabber
-time: 2009-12-15 21:27:00 +01:00
+date: 2009-12-15 21:27:00 +01:00
 topics: 
 - jabber
 - komunikace

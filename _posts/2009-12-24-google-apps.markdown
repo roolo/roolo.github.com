@@ -2,7 +2,7 @@
 name: google-apps
 layout: post
 title: Google Apps
-time: 2009-12-24 19:48:00 +01:00
+date: 2009-12-24 19:48:00 +01:00
 topics: 
 - pokročilý
 - Síť

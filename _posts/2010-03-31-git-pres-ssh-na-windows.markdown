@@ -2,7 +2,7 @@
 name: git-pres-ssh-na-windows
 layout: post
 title: Git pres ssh na Windows
-time: 2010-03-31 02:43:00 +02:00
+date: 2010-03-31 02:43:00 +02:00
 topics: 
 - "Syst\xC3\xA9m"
 - "Slu\xC5\xBEby"

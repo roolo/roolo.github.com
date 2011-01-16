@@ -2,7 +2,7 @@
 name: formatovani-kodu-tabulatory-nebo-mezery
 layout: post
 title: "Formátování kódu - tabulátory nebo mezery"
-time: 2009-06-20 20:30:00 +02:00
+date: 2009-06-20 20:30:00 +02:00
 tags: 
 - !binary |
   U8OtxaU=

@@ -2,7 +2,7 @@
 name: youtube-do-mp3
 layout: post
 title: Youtube do mp3
-time: 2009-06-21 22:31:00 +02:00
+date: 2009-06-21 22:31:00 +02:00
 tags: 
 - !binary |
   U8OtxaU=

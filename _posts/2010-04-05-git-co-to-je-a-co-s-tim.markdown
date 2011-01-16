@@ -2,7 +2,7 @@
 name: git-co-to-je-a-co-s-t-m
 layout: post
 title: "Git - co to je a co s t\xC3\xADm"
-time: 2010-04-05 21:30:00 +02:00
+date: 2010-04-05 21:30:00 +02:00
 topics: 
 - git
 - vývojář

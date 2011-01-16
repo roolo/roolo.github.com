@@ -2,7 +2,7 @@
 name: jabber-jabber-xmpp
 layout: post
 title: Jabber - Jabber/XMPP
-time: 2007-10-01 23:46:00 +02:00
+date: 2007-10-01 23:46:00 +02:00
 tags: 
 - jabber
 - komunikace

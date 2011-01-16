@@ -2,7 +2,7 @@
 layout: post
 title: Externí monitor na notebooku s Ubuntu
 topics:   [dualhead, linux, multihead, pokročilý, Systém, twinview, ubuntu]
-time:  2011-01-16 19:06:24 +01:00
+date:  2011-01-16 19:06:24 +01:00
 excerpt: |-
   V tomto postu popíši jak na notebooku s Ubuntu 10.10 nastavit fungování s externím zobrazovacím zařízením( ve většině případů se bude jednat o monitor/display ). Koho nezajímá omáčka a chce rovnou soubor xorg.conf tak je k dispozici na adrese&nbsp;<a href="https://gist.github.com/gists/777004/download">https://gist.github.com/gists/777004/download</a>,&nbsp;k prohlédnutí pak na adrese&nbsp;<a href="https://gist.github.com/777004">https://gist.github.com/777004</a>. Na odkazech jsou dva soubory. Původní soubor, který jsem měl na začátku( xorg.conf-default ) a soubor xorg.conf, který vznikl postupným nastavováním. V tomto postu se budu zabývat tím jaký má rozdíl mezi těmito soubory význam. Pro úplnost je přiložen i poslední log nastavovaného X serveru &ndash; <a href="https://gist.github.com/777004#file_xorg.0.log">Xorg.0.log</a>.
 

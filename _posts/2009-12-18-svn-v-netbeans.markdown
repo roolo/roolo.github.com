@@ -2,7 +2,7 @@
 name: svn-v-netbeans
 layout: post
 title: SVN v Netbeans
-time: 2009-12-18 23:04:00 +01:00
+date: 2009-12-18 23:04:00 +01:00
 topics: 
 - vývojář
 - subversion

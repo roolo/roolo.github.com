@@ -2,7 +2,7 @@
 name: instalace-linuxu
 layout: post
 title: Instalace Linuxu
-time: 2007-09-05 22:14:00 +02:00
+date: 2007-09-05 22:14:00 +02:00
 topics: 
 - Systém
 - linux
