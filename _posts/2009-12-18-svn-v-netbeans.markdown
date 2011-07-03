@@ -3,7 +3,7 @@ name: svn-v-netbeans
 layout: post
 title: SVN v Netbeans
 date: 2009-12-18 23:04:00 +01:00
-topics: 
+categories: 
 - vývojář
 - subversion
 - netbeans
@@ -11,7 +11,9 @@ topics:
 - vývoj
 excerpt:  |-
   A je to tady. Slibovaný článek o Subversionu v Netbeans je tu. Pokusím se popsat možnosti jaké nám Netbeans nabízí pro Subversion. Soustředit se budu na každodení úkony. Tento post předpokládá, že již znáte základní pojmy SVN a trochu se orientujete v Netbeans. Popisovat budu možnosti v aktualní verzi 6.8
+
 ---
+
 Předesílam, že integrací <abbr title="Subversion">SVN</abbr> do <abbr title="Netbeans">NB</abbr> nezískáte <abbr title="Snowboard">SNB</abbr>. Instalace probíha dvěmi cestami. K oběma dojde přirozenou cestou. Ve chvíli kdy chcete něco checkoutnou a nemáte nainstalovaný Subversion, NB se po něm začnou ptát. Nabídne vám dvě možnosti.
 
 ### 1) Nainstalovat bundle NB

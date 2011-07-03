@@ -3,7 +3,7 @@ name: svn-vy-vysoky-výt-vyvijime-spolecne
 layout: post
 title: "SVN - Vy, vysok\xC3\xBD, v\xC3\xBDt, vyv\xC3\xADj\xC3\xADme spole\xC4\x8Dn\xC4\x9B"
 date: 2008-08-31 00:24:00 +02:00
-topics: 
+categories: 
 - vývoj
 - vývojář
 - subversion
@@ -11,6 +11,7 @@ topics:
 - Síť
 excerpt:  |-
   V tomto článku popisuji základní práci se <a href="http://en.wikipedia.org/wiki/Subversion_(software)">Subversion</a>(SVN) a programy pro hostování projektů na SVN. Neřeším teď jeho kvality, nebo vhodnost na něco. Prostě s ním pracuji, tak o něm píšu.
+
 ---
 Pokud chcete začít svn používat pro soukromé vývíjení, tak nejsnažší cesta je zaregistrovat se na <a href="http://code.google.com/hosting/createProject">Google</a>, nebo <a title="Registrace na sf.net" href="http://sourceforge.net/account/registration/">Sourceforge</a>( nabízí i CVS ). Na obouch dvou musíte mít nejdříve učet a pak teprve založit projekt. Na sf.net sice trvá celkem dlouho, než projekt projde schvalovanim, ale zato pak máte více možností. Předesílám, že pokud člověk něco vyvíjí sám, tak pro něj tyto služby nemají až takový smysl a je lepší si <a title="Popis instalace Subversion" href="http://svnbook.red-bean.com/en/1.4/svn.intro.install.html">SVN</a>, či <a title="Popis instalace CVS" href="http://www.idevelopment.info/data/Programming/change_management/unix_cvs/PROGRAMMING_Installing_CVS.shtml">CVS</a> rozjet lokálně.
 

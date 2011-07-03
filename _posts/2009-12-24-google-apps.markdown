@@ -3,7 +3,7 @@ name: google-apps
 layout: post
 title: Google Apps
 date: 2009-12-24 19:48:00 +01:00
-topics: 
+categories: 
 - pokročilý
 - Síť
 - Služby

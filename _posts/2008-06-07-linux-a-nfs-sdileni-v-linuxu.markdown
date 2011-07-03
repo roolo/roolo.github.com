@@ -3,7 +3,7 @@ name: linux-a-nfs-sdileni-v-linuxu
 layout: post
 title: "Linux a NFS ( Sdílení v Linuxu )"
 date: 2008-06-07 01:22:00 +02:00
-topics: 
+categories: 
 - server
 - pokročilý
 - Síť
@@ -11,6 +11,7 @@ topics:
 - kolaborace
 excerpt:  |-
   Dobrý večer, pokud jdete kalit, dobré ráno pokud už jste zvraceli. V tomto postu popíšu jakže se dá v linuxu nasdílet adresář. Překvapilo mě jak je to jednoduché, takže jsem možná vynechal některé drobnosti, které nejsou až tak důležité, ale funguje to no:)
+
 ---
 
 Predtim nez zacnete se ujistete, ze mate nainstalovane baliky nfs-kernel-server a nfs-common. Celá konfigurace spocivala v editaci tří souborů:

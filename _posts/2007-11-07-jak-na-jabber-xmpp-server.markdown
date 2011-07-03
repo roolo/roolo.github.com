@@ -3,9 +3,9 @@ name: jak-na-jabber-xmpp-server
 layout: post
 title: Jak na Jabber/XMPP server
 date: 2007-11-07 01:32:00 +01:00
-topics: 
+categories: 
 - server
-- "Systém"
+- Systém
 - jabber
 - komunikace
 - začátečník

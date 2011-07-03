@@ -6,4 +6,4 @@ time: 2010-12-21 20:46:00.001000 +01:00
 tags: []
 
 ---
-<!--texy-->Bych chtěl poděkovat georgehsovi, který mi dává navrhy na to o čem psát a komentuje mé posty konstruktivní kritikou( bez ironie )
+Bych chtěl poděkovat georgehsovi, který mi dává navrhy na to o čem psát a komentuje mé posty konstruktivní kritikou( bez ironie )

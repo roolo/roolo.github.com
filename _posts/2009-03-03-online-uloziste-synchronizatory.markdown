@@ -3,7 +3,7 @@ name: online-uloziste-synchronizatory
 layout: post
 title: "Online úložiště/synchronizátory"
 date: 2009-03-03 23:10:00 +01:00
-topics: 
+categories: 
 - Síť
 - Služby
 - webové služby
@@ -11,6 +11,7 @@ topics:
 - kolaborace
 excerpt:  |-
   Nelekejte se nadpisu na naší planetu ještě neutočí žádná nová forma života;) <a title="Pojem synchronizace na wikipedii" href="http://cs.wikipedia.org/wiki/Synchronizace">Synchronizace</a> je jinými slovy udržování více věcí ve stejném stavu. Synchronizátor je to co udržuje věci v onom stejném stavu. V tomto postu popíši tři aktuálně( pro mě ) nejzajímavější online úložiště a to DropBox, Syncplicity a Live Mesh.
+
 ---
 
 ### Jak to funguje

@@ -3,18 +3,16 @@ name: youtube-do-mp3
 layout: post
 title: Youtube do mp3
 date: 2009-06-21 22:31:00 +02:00
-tags: 
-- !binary |
-  U8OtxaU=
-
-- "Slu\xC5\xBEby"
-- "webov\xC3\xA9 slu\xC5\xBEby"
+categories: 
 - mutlimedia
-- "Multim\xC3\xA9dia"
-- !binary |
-  esOhxI3DoXRlxI1uw61r
+- služby
+- webové služby
+- mutlimedia
+- záčátečník
+
 excerpt:  |-
   Čas od času  se mě kamarádky ptají jak dostat video z Youtube do mp3, aby to mohli poslouchat ve svych chytrych krabickach. Tady je tedy post, ktery to popisuje.
+
 ---
 
 ### 1. Získání videa

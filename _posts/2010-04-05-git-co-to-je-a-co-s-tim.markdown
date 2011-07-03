@@ -3,7 +3,7 @@ name: git-co-to-je-a-co-s-t-m
 layout: post
 title: "Git - co to je a co s t\xC3\xADm"
 date: 2010-04-05 21:30:00 +02:00
-topics: 
+categories: 
 - git
 - vývojář
 - programování
@@ -15,6 +15,7 @@ excerpt:  |-
 
 
 ---
+
 [Git](http://git-scm.com) je <a href="http://en.wikipedia.org/wiki/Distributed_version_control_system"><abbr title="Distribuovaný/Decentralizovaný Systém pro Kontrolu Verzí">DVCS</abbr></a>. Jako takový nevyžaduje pro své fungování, žádný server. Repozitář máte celý u sebe. To je výhoda, ale některé lidi to zkrátka děsí. Většina obav plyne z objemu dat, které musí mít vývojář u sebe. Vetšinou se ale jedná o necelou velikost pracovní kopie navíc. To neznamená pouze, že můžete pracovat i bez připojení k serveru, ale také že je většina opearací rychlejší, protože se nic nepřenáši po síti, ale pouze se čte z disku.
 
 Další věc která vyplívá z distribuovatelnosti je rozhození čísel revizí. V systému Git se spíš než pojem revize používá pojem changeset. Jedná se o sadu změn, kterou jste provedli při jednom commitu, nebo jeho doplnění (git commit --amend). Takový changeset je identifikován hashem SHA-1. Tento hash je tvořen právě změnami, které jste provedli.

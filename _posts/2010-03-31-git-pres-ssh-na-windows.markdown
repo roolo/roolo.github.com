@@ -3,21 +3,17 @@ name: git-pres-ssh-na-windows
 layout: post
 title: Git pres ssh na Windows
 date: 2010-03-31 02:43:00 +02:00
-topics: 
-- "Syst\xC3\xA9m"
-- "Slu\xC5\xBEby"
+categories: 
+- systém
+- služby
 - git
-- !binary |
-  dsO9dm9qw6HFmQ==
+- vývoj
+- vývojář
+- záčátečník
 
-- !binary |
-  dsO9dm9q
-
-- "sprost\xC3\xA1 slova"
-- !binary |
-  esOhxI3DoXRlxI1uw61r
 excerpt:  |-
   V tomto postu popíši rozjetí toho co píši v nadpisu a zároveň uvítám čtenáře v novém roce 2010. Omlouvám se za to sproste slovo v nadpisu, začinajicí na W, ale okolnosti si to žádají. Zjistil jsem, že nejeden vyvojař u kterého dokonce hrozí, že dosáhne vysokoškolského vzdělání, které jej bude identifikovat jako IT specialistu, není sto rozjet git přes ssh na Windows (myslím tím tu klientskou část). Proto jsem se jal tuto exotiku vyzkoušet na vlastní kůži.
+
 ---
 
 ### "Vo co tady jako de?!"

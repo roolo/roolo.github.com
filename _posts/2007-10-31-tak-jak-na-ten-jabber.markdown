@@ -3,10 +3,11 @@ name: tak-jak-na-ten-jabber
 layout: post
 title: Tak jak na ten Jabber?!
 date: 2007-10-31 00:49:00 +01:00
-topics: 
+categories: 
 - jabber
 - komunikace
 - začátečník
+
 ---
 ### Klient
 

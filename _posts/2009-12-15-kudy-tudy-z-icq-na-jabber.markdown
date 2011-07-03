@@ -3,13 +3,14 @@ name: kudy-tudy-z-icq-na-jabber
 layout: post
 title: Kudy tudy z ICQ na Jabber
 date: 2009-12-15 21:27:00 +01:00
-topics: 
+categories: 
 - jabber
 - komunikace
 - ICQ
 - záčátečník
 excerpt:  |-
   Spousta lidí mi říká( když pominu ty, kteří jabber nechtěji, protože klienti jsou jinak barevní, klasické ICQ ), že by klidně přešlí, ale že mají na ICQ tolik lidí, že přechod na cokoliv jiného je nemožný. Funguje to stejně jako přesun skupiny lidí do jiné hospody - jamile se dav zvedne, tak se de, ale do té doby se nestane nic. Dnes se podíváme jak jít blíž ke dveřím a počkat až se zvednou ostatní.
+
 ---
 
 ### 1. Účet

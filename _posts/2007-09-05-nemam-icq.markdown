@@ -3,10 +3,11 @@ name: nemam-icq
 layout: post
 title: "Nemám ICQ"
 date: 2007-09-05 22:22:00 +02:00
-topics: 
+categories: 
 - jabber
 - komunikace
 - ICQ
+
 ---
 Ahoj,
 dost z vás se mi často pokouší něco posílat přes ICQ a nejde vám to. Je to tím, že já [nemám ICQ](http://icq.xmpp.cz/). Používám decentralizovanou síť [Jabber](http://www.jabber.cz/wiki/Jabber). Do sítě ICQ přistupuji přes takzvaný [transport](http://www.jabber.cz/wiki/ICQ_transport). Jelikož je ICQ a jeho protokol [proprietární](http://cs.wikipedia.org/wiki/Propriet%C3%A1rn%C3%AD_software) velice težko se daří s ICQ komunikovat jiným vývojářům než těm z AOLu (Společnost vyvýjecí a provozující ICQ). To způsobuje, že mi od vás místo normálního textu občas příjde jenom změť azbuky ze které občas vykoukne něco smysluplného (k tomuto problému občas docházelo i pokud měli dva uživatelé jinou verzi ICQ).

@@ -3,7 +3,7 @@ name: ssh-na-windows
 layout: post
 title: SSH na Windows
 date: 2010-01-01 00:59:00 +01:00
-topics: 
+categories: 
 - server
 - pokročilý
 - Síť
@@ -12,6 +12,7 @@ topics:
 - komunikace
 excerpt:  |-
   V tomto silvestrovskem postu( posledni v roce 2009 ) popíšu rozjetí ssh na windows s autentizaci přes klíče.
+
 ---
 
 ### K čemu je to dobré

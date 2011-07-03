@@ -3,16 +3,11 @@ name: formatovani-kodu-tabulatory-nebo-mezery
 layout: post
 title: "Formátování kódu - tabulátory nebo mezery"
 date: 2009-06-20 20:30:00 +02:00
-tags: 
-- !binary |
-  U8OtxaU=
-
-- !binary |
-  dsO9dm9qw6HFmQ==
-
+categories: 
+- Síť
+- vývoj
 - kolaborace
-- !binary |
-  dsO9dm9q
+- vývojář
 excerpt:  |-
   Tento post pojednává o nekonečném tématu – odsazování zdrojového kódu při psaní. Psát kód jenom podle  svého přesvědčení mi přijde naprosto zcestné a proto jsem si vzal na pomoc ten Internet, když vo ňom všichni tak básněj. Post je tedy spíše souhrnem informací a názorů, které jsem našel, občasně doplněný názory mými.
 

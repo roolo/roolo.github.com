@@ -3,7 +3,7 @@ name: idlece
 layout: post
 title: IdleCE
 date: 2008-05-25 02:30:00 +02:00
-topics: 
+categories: 
 - Systém
 - vývojář
 - programování
