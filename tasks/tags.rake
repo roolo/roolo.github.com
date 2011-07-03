@@ -21,23 +21,37 @@ task :tags do
   options = Jekyll.configuration({})
   site = Jekyll::Site.new(options)
   site.read_posts('')
-  site.categories.sort.each do |category, posts|
+  site.categories.sort.reverse.each do |category, posts|
     html = ''
     html << <<-HTML
 ---
 layout: default
 title: Postings tagged "#{category}"
 ---
-    <h2 id="#{category}">Postings tagged "#{category}"</h2>
+    <h2 id="#{category}">Posty otagovány "#{category}"</h2>
 HTML
-    html << '<ul class="posts">'
+
+    html << <<-HTML
+    <table>
+      <tr>
+        <th>Datum</th>
+        <th>Název</th>
+      </tr>
+HTML
     posts.each do |post|
       post_data = post.to_liquid
+      post_date = post_data['date'].strftime("%d.%m.%Y")
       html << <<-HTML
-        <li>#{post_data['title']}</li>
+        <tr>
+          <td class="post_date">#{post_date}</td>
+          <td class="post_title"><a href="#{post_data['url']}">#{post_data['title']}</a></td>
+        </tr>
       HTML
     end
-    html << '</ul>'
+    html << <<-HTML
+      </table>
+      <a href="/tags.html">Všechny tagy</a>
+HTML
     
     File.open("tag/#{filyfy(category)}.html", 'w+') do |file|
       file.puts html
@@ -63,12 +77,11 @@ task :tag_cloud do
 ---
 layout: default
 title: Tags
-type: A tag cloud
+type: Tag cloud
 ---
 
 <h2>Seznam tagů</h2>
 
-<p>Click on a tagto see the relevant posts.</p>
 HTML
 
   site.categories.sort.each do |category, posts|

@@ -1,9 +1,9 @@
 <div id="sidebar">
     <div class="tags">
-        Témata
+        Tagy
         <ul>
             {% for category in page.categories %}
-            <li>{{category}}</li>
+            <li><a href="/tag/{% ascii_name {{category}} %}.html">{{category}}</a></li>
             {% endfor %}
         </ul>
     </div>
