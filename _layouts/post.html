@@ -5,6 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <link href="/css/main.css" media="screen" rel="stylesheet" type="text/css" />
         <link href="/css/post.css" media="screen" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" />
         <title>{{page.title}} | {{site.title}}</title>
         
@@ -24,6 +25,7 @@
                         <hr id="excerpt-content-divide" />
                         {{content}}
                         <hr/>
+						{% include google-plus.html %}
                         {% include disqus.html %}
                     </div>
                 </div>
