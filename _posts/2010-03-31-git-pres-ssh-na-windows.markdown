@@ -52,7 +52,7 @@ Tlačítkem <strong>Save private key</strong> uložte klíč pod názvem <em>pri
 
 Zbytek ukládání dle libosti;)
 
-Teď příchází krok, který nejde tak úplně udělat přímo v PuTTY Key Generatoru. Asi je vám divné proč jsme dvakrát klikali na to samé tlačitko a napodruhé volili jiný název souboru. Bylo to jenom proto, abychom nemusely ručně soubor s tímto názvem vytvářet. Otevřete tedy nyní soubor s názvem id_rsa.pub v nějakém textovém editoru (ne, MS Word není textový editor) přinejhořším v notepadu, který by měl být na každé verzi W... Obsah tohoto souboru nahraďte obsahem z políčka <em>Public key for pasting into OpenSSH authorized_keys file</em>. Soubor uložte (<strong>velice důležité</strong>) a editor zavřete (volitelné).
+Teď příchází krok, který nejde tak úplně udělat přímo v PuTTY Key Generatoru. Asi je vám divné proč jsme dvakrát klikali na to samé tlačitko a napodruhé volili jiný název souboru. Bylo to jenom proto, abychom nemuseli ručně soubor s tímto názvem vytvářet. Otevřete tedy nyní soubor s názvem id_rsa.pub v nějakém textovém editoru (ne, MS Word není textový editor) přinejhořším v notepadu, který by měl být na každé verzi W... Obsah tohoto souboru nahraďte obsahem z políčka <em>Public key for pasting into OpenSSH authorized_keys file</em>. Soubor uložte (<strong>velice důležité</strong>) a editor zavřete (volitelné).
 
 #### Jak se můj klíč dostane na server s repozitářem?
 
