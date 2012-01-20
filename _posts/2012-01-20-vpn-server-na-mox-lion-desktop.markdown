@@ -1,17 +1,18 @@
 ---
 layout: post
 title: VPN server na MOX Lion (10.7)
-categories:   [pokročilý, Systém, mox, lion, server]
-date:  2011-09-27 19:48:36 +01:00
+categories:   [pokročilý, Systém, MOX, Lion, server]
+date:  2012-01-20
 excerpt: |-
   V tomto postu popisuji jak si na desktopovém MacOS X Lion rozjet VPN server. Já osobně si od toho slibuji OTA sync i když nebudu na jedné síti se svým iOS zařízením. Náplň postu je z většiny překlad souhrnu článku a komentářů na http://blog.theilluminatedengineer.com/?p=136.
+  
 ---
 
 Předesílám, že během postupu bude dost možná vyžadován restart celého systému. Editace souborů jsem prováděl přes `mate <názav souboru>`. Systém se pak při ukládání zeptal na zda uložení souboru posvětím svými přihlašovacími údaji.
 
 ### Nastavení VPN serveru
 
-MOX v desktopové verzi obsahuje server VPN, akorát k němu není automaticky k dispozici hezké GUI jako je tomu v případě MOX Server. Spustitelný soubor VPN serveru - vpnd, příjmá jako parametr jak se má chovat po spuštění serveru a id serveru, který chceme spustit. Nový server si nadefinujeme v /Library/Preferences/SystemConfiguration/com.apple.RemoteAccessServers.plist nasledujícím obsahem
+MOX v desktopové verzi obsahuje server VPN, akorát k němu není automaticky k dispozici hezké GUI jako je tomu v případě MOX Server. Spustitelný soubor VPN serveru - `vpnd`, příjmá jako parametr jak se má chovat po spuštění serveru a id serveru, který chceme spustit. Nový server si nadefinujeme v /Library/Preferences/SystemConfiguration/com.apple.RemoteAccessServers.plist nasledujícím obsahem
 
     {
         ActiveServers = ("com.apple.ppp.l2tp");
@@ -52,9 +53,9 @@ MOX v desktopové verzi obsahuje server VPN, akorát k němu není automaticky k
         };
     }
 
-Znát význam celého souboru není v tuto chvíli potřeba. Je potřeba nahradit XXX.XXX.XXX.XXX IP adresou na které VPN server poběží a "YYY.YYY.YYY.YYY", "ZZZ.ZZZ.ZZZ.ZZZ" hranicemi rozsahu adres, ze kterého může vpnd přiřazovat. IP adresa počítače se na MOX zjití příkazem `ifconfig`. Hledejte řádek podbný `inet 192.168.5.10`
+Znát význam celého souboru není v tuto chvíli potřeba. Je potřeba nahradit XXX.XXX.XXX.XXX IP adresou na které VPN server poběží a "YYY.YYY.YYY.YYY", "ZZZ.ZZZ.ZZZ.ZZZ" hranicemi rozsahu adres, ze kterého může `vpnd` přiřazovat. IP adresa počítače se na MOX zjití příkazem `ifconfig`. Hledejte řádek podbný `inet 192.168.5.10`
 
-Dále je potřeba nadefinovat službu pro launchd. Definici souboru umístíme do souboru /System/Library/LaunchDaemons/com.apple.ppp.l2tp.plist .
+Dále je potřeba nadefinovat službu pro launchd. Definici souboru umístíme do souboru `/System/Library/LaunchDaemons/com.apple.ppp.l2tp.plist`.
 
     <?xmlversion="1.0"encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -78,9 +79,9 @@ Nyní by melo být možné spustit službu VPN serveru nasledujícím příkazem
 
     launchctl load /System/Library/LaunchDaemons/com.apple.ppp.l2tp.plist
 
-Přihlašování k VPN serveru probíha přes uživatelské jméno a uživatelské heslo. Nechtěl jsem dávat v šanc svůj vlastní uživatelský účet, tak jsem si vytvořil nový, jenom pro učely přihlašování k serveru. Na konci postu budu mluvit ještě o jedné věci, kvůli které jsem radši že mám zvlášť účet na VPN.
+Přihlašování k VPN serveru probíha přes uživatelské jméno a uživatelské heslo. Nechtěl jsem dávat v šanc svůj vlastní uživatelský účet, tak jsem si vytvořil nový, jenom pro učely přihlašování k serveru. Na konci postu budu mluvit ještě o jedné věci, kvůli které jsem radši, že mám zvlášť účet na VPN.
 
-Zatím poslední věc kterou musíme udělat na serveru je nastavení sdíleného klíče pro přihlášení na VPN server.
+Zatím poslední věc kterou musíme udělat na počítačí, ktery bude sloužit jako VPN server, je nastavení sdíleného klíče pro přihlášení na VPN server.
 
     sudo security add-generic-password -a com.apple.ppp.l2tp \
         -s com.apple.net.racoon -T /usr/sbin/racoon -p "sdileny klic" \
@@ -95,7 +96,7 @@ Následujícím příkazem je možné sledovat co se ve VPN serveru děje.
 Dá se zde například zjistit, jakou IP adresu ziskal počítač připojující se k serveru a obecně co se dělo při připojování. Toho využiji v závěru postu.
 
 ### Nastavení klienta
-_iPod touch - 4.3.5 (8L1)_
+_iPod touch -- 4.3.5 (8L1)_
 
 V aplikaci pro nastavení se VPN server přidá v cestě VPN > Přidat konfiguraci VPN...
 
@@ -107,7 +108,7 @@ V aplikaci pro nastavení se VPN server přidá v cestě VPN > Přidat konfigura
 - Sdílený klíč: &lt;sdílený klíč nastavený v závěru nastavování serveru>
 - Odeslat vše: Zapnuto
  
-- Proxy:  Vypnuto (Taby úplně dole)
+- Proxy (Taby úplně dole):  Vypnuto
 
 Tlačítkem uložit, uložíme konfiguraci a přesuneme se na hlavní obrazovku správy VPN spojení. Tapnutím na nově vytvořené spojení se pouze zvolí jako používané. Samotný pokus o připojení probíhá až po aktivaci položky VPN v horní části obrazovky. Pokud vše dopadlo dobře, tak vám nyní na obrazovce beží čas jak dlouho jste k VPN připojeni.
 
@@ -136,16 +137,18 @@ Aktuální původní hodnotu je potřeba zjistit přes následující přikaz
 
     dscl . read /users/vpnuser AuthenticationAuthority
 
-Dscl vrátí celé AuthenticationAuthority. Nás z něj zajímá akorát ShadowHash. Po úspěšné změne údajů, o kterém vás dscl informuje tím, že nevypíše zhola nic, by již mělo spojení proběhnou bez potíží.
+Dscl vrátí celé AuthenticationAuthority. Nás z něj zajímá akorát ShadowHash. Po úspěšné změne údajů, o kterém vás `dscl` informuje tím, že nevypíše zhola nic, by již mělo spojení proběhnou bez potíží.
 
 ### DNS
 
-VPN server může sloužit i pro běžné prohlížení internetu, či kontaktování ostatních strojů pomocí doménových jmen. V konfiguraci (soubor com.apple.RemoteAccessServers.plist) se uvedou IP adresy DNS serverů.
+VPN server může sloužit i pro běžné prohlížení internetu, či kontaktování ostatních strojů pomocí doménových jmen. V konfiguraci (soubor `com.apple.RemoteAccessServers.plist`) se uvedou IP adresy DNS serverů.
 
-    DNS = {OfferedSearchDomains = (“mojedomena.cz”); OfferedServerAddresses = ("<sem dopsat ip adresy google>"); };
+    DNS = {OfferedSearchDomains = (“mojedomena.cz”); OfferedServerAddresses = ("8.8.8.8"); };
 
-V ukazce jsou IP adresy veřejných DNS serverů Google http://odkaz na google public dns . 
+V ukazce je IP adresa [Google Public DNS](http://code.google.com/speed/public-dns/docs/using.html) pro IPv4. 
 
 ### Závěrem
 
-Doufám, že bude tento post někomu nápomocen. Pokud by v něm byly nějaké chyby, nepřesnosti, či nejasnosti, tak se o nich rád dovím přes komentáře pod postem.
+Doufám, že bude tento post někomu nápomocen. Pokud by v něm byly nějaké chyby, nepřesnosti, či nejasnosti, tak se o nich rád dovím přes komentáře pod postem. 
+
+Poslední věta před zveřejněním. Tento post byl puvodne napsán 27.9.2011, ale nějak mi zapadly dodatečné úpravy a kontrola postu. Doufám, že někdy mezi tím nikdo tento post životně nutně nepotřeboval ;)
