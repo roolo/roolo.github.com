@@ -1,4 +1,5 @@
 title:  Mailův blog
+description: 'Blog o počítačích postupech a tak vůbec'
 url:    http://www.rooland.cz
 permalink:  /:year/:month/:day/:title.html
 
