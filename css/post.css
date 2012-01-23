@@ -12,3 +12,8 @@
 .tags li {
     list-style: none;
 }
+
+pre {
+    overflow:   scroll;
+    padding:    10px;
+}
