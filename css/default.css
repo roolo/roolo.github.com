@@ -1,0 +1,7 @@
+header > * { display: inline }
+
+footer {
+  font-size:    0.8em;
+  line-height:  0.8em;
+  color:        #D2D2D2;
+}
