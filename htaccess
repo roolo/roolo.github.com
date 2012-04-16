@@ -1,0 +1,5 @@
+---
+layout: none
+permalink: .htaccess
+---
+Redirect 301 /programovani/2010/04/git-co-to-je-a-co-s-tim/ /2010/04/05/git-co-to-je-a-co-s-tim.html
