@@ -3,6 +3,7 @@ name: nemam-icq
 layout: post
 title: "Nemám ICQ"
 date: 2007-09-05 22:22:00 +02:00
+alias: /2007/09/05/nemam-icq/
 categories: 
 - jabber
 - komunikace

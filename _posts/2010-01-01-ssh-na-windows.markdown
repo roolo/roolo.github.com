@@ -3,6 +3,7 @@ name: ssh-na-windows
 layout: post
 title: SSH na Windows
 date: 2010-01-01 00:59:00 +01:00
+alias: /komunikace/2009/12/ssh-na-windows/
 categories: 
 - server
 - pokročilý

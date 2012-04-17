@@ -3,6 +3,7 @@ name: google-sluzby
 layout: post
 title: "Google služby"
 date: 2009-02-21 23:28:00 +01:00
+alias: /sit/2009/02/google-sluzby/%3E
 categories: 
 - Síť
 - Služby

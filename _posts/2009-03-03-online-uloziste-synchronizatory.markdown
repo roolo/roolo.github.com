@@ -3,6 +3,7 @@ name: online-uloziste-synchronizatory
 layout: post
 title: "Online úložiště/synchronizátory"
 date: 2009-03-03 23:10:00 +01:00
+alias: /2009/11/online-ulozistesynchronizatory.html
 categories: 
 - Síť
 - Služby

@@ -3,6 +3,7 @@ name: kudy-tudy-z-icq-na-jabber
 layout: post
 title: Kudy tudy z ICQ na Jabber
 date: 2009-12-15 21:27:00 +01:00
+alias: /icq/2009/12/kudy-tudy-z-icq-na-jabber/
 categories: 
 - jabber
 - komunikace

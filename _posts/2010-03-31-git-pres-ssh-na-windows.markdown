@@ -1,9 +1,12 @@
---- 
+---
 name: git-pres-ssh-na-windows
 layout: post
 title: Git pres ssh na Windows
 date: 2010-03-31 02:43:00 +02:00
-categories: 
+alias:
+- /system/2010/03/git-pres-ssh-na-windows/
+- /system/2010/03/31/git-pres-ssh-na-windows/
+categories:
 - systém
 - služby
 - git
