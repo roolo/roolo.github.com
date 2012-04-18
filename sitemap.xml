@@ -5,8 +5,7 @@ layout: nil
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>{{site.url}}</loc>
-    <lastmod>2012-04-16T15:52:00+00:00</lastmod>
-    <lastmod>{{site.time | date: "%Y-%m-%dT%H:%M:%S+"}}</lastmod>
+    <lastmod>{{site.time | date: "%Y-%m-%dT%H:%M"}}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -15,7 +14,7 @@ layout: nil
     <loc>
       {{site.url}}{{post.url}}
     </loc>
-    <lastmod>{{post.date}}</lastmod>
+    <lastmod>{{post.date | date: "%Y-%m-%dT%H:%M"}}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
