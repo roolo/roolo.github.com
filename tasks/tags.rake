@@ -7,8 +7,8 @@ end
 namespace :tags do
   desc 'Generate all tags related things'
   task :tags_all do
-    Rake::Task['tags'].execute
-    Rake::Task['tag_cloud'].execute
+    Rake::Task['tags:tags'].execute
+    Rake::Task['tags:tag_cloud'].execute
   end
 
   desc 'Generate tags page'
@@ -17,21 +17,18 @@ namespace :tags do
     jekyll_site.categories.sort.reverse.each do |category, posts|
       html = ''
       html << <<-HTML
-  ---
-  layout: default
-  title: Postings tagged "#{category}"
-  ---
-      <h2 id="#{category}">Posty otagovány "#{category}"</h2>
-  HTML
-
-      html << <<-HTML
-      <table>
-        <tr>
-          <th>Datum</th>
-          <th>Název</th>
-        </tr>
-  HTML
-      posts.each do |post|
+---
+layout: default
+title: Postings tagged "#{category}"
+---
+    <h2 id="#{category}">Posty otagovány "#{category}"</h2>
+    <table class="table table-striped">
+      <tr>
+        <th>Datum</th>
+        <th>Název</th>
+      </tr>
+HTML
+      posts.sort.reverse.each do |post|
         post_data = post.to_liquid
         post_date = post_data['date'].strftime("%d.%m.%Y")
         html << <<-HTML
@@ -67,15 +64,15 @@ namespace :tags do
 
 
     html =<<-HTML
-  ---
-  layout: default
-  title: Tags
-  type: Tag cloud
-  ---
+---
+layout: default
+title: Tags
+type: Tag cloud
+---
 
-  <h2>Seznam tagů</h2>
+<h2>Seznam tagů</h2>
 
-  HTML
+HTML
 
     site.categories.sort.each do |category, posts|
       next if category == ".net"
