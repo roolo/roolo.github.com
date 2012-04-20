@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git - Kdiff3 na MOX Lion
-categories:   [vcs, dev, začátečník, tool]
+categories:   [git, vcs, dev, začátečník, tool]
 excerpt: |-
   V tomto postu píši o tom jak si na MacOS X Lion nastavit mergovací nástroj Kdiff3 jako mergtool pro verzovací systém Git
   
