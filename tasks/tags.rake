@@ -6,13 +6,14 @@ end
 
 namespace :tags do
   desc 'Generate all tags related things'
-  task :tags_all do
-    Rake::Task['tags:tags'].execute
-    Rake::Task['tags:tag_cloud'].execute
+  task :all do
+    Rake::Task['tags:pages'].execute
+    Rake::Task['tags:cloud'].execute
+    Rake::Task['tags:sitemap'].execute
   end
 
   desc 'Generate tags page'
-  task :tags do
+  task :pages do
     puts "Generating tags..."
     jekyll_site.categories.sort.reverse.each do |category, posts|
       html = ''
@@ -51,16 +52,13 @@ HTML
   end
 
   desc 'Generate tag cloud page'
-  task :tag_cloud do
+  task :cloud do
     puts 'Generating tag cloud...'
     require 'rubygems'
     require 'jekyll'
     require 'iconv'
     include Jekyll::Filters
 
-    options = Jekyll.configuration({})
-    site = Jekyll::Site.new(options)
-    site.read_posts('')
 
 
     html =<<-HTML
@@ -74,7 +72,7 @@ type: Tag cloud
 
 HTML
 
-    site.categories.sort.each do |category, posts|
+    jekyll_site.categories.sort.each do |category, posts|
       next if category == ".net"
       html << <<-HTML
       HTML
@@ -84,9 +82,6 @@ HTML
       html << "<a href=\"/tag/#{filyfy(category)}.html\" title=\"Entries tagged #{category}\" style=\"font-size: #{font_size}px; line-height:#{font_size}px\">#{category}</a> "
     end
 
-
-
-
     File.open('tags.html', 'w+') do |file|
       file.puts html
     end
@@ -94,4 +89,38 @@ HTML
     puts 'Done.'
 
   end
+  
+  desc 'Generates sitemap part for tags'
+  task :sitemap do
+    puts 'Generating sitemap...'
+    site = jekyll_site
+    
+    xml = ["
+  <url>
+    <loc>{{site.url}}/tags.html</loc>
+    <lastmod>#{Jekyll::Filters::date_to_xmlschema site.posts.sort.reverse.first.date }</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+    "]
+    
+    xml << site.categories.sort.map do |category, posts|
+      <<-XML
+      
+  <url>
+    <loc>{{site.url}}/tag/#{filyfy category}.html</loc>
+    <lastmod>#{Jekyll::Filters::date_to_xmlschema posts.sort.reverse.first.date }</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+      XML
+    end
+    
+    File.open('_includes/sitemap-tags.xml', 'w+') do |file|
+      file.puts xml.join
+    end
+    
+    
+  end
+  
 end

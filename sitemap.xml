@@ -9,6 +9,7 @@ layout: nil
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
+  {% include sitemap-tags.xml %}
   {% for post in site.posts %}
   <url>
     <loc>
@@ -16,7 +17,7 @@ layout: nil
     </loc>
     <lastmod>{{post.date | date: "%Y-%m-%dT%H:%M"}}{{site.timezone}}</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.70</priority>
   </url>
   {% endfor %}
 </urlset>
