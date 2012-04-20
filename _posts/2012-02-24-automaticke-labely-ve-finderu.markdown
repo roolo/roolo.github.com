@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatické labely ve Finderu
-categories:   [mox, uživatel, začátečník, applescript]
+categories:   [MOX, uživatel, začátečník, applescript]
 excerpt: |-
   Jak si zařídit, aby se nově přidané položky ve složce označovaly barevným labelem. To se může hodit například pokud máte adresář s dokumenty, které chcete projít -- žluté nové, zelené projduté.
   
