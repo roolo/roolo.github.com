@@ -54,12 +54,7 @@ HTML
   desc 'Generate tag cloud page'
   task :cloud do
     puts 'Generating tag cloud...'
-    require 'rubygems'
-    require 'jekyll'
     require 'iconv'
-    include Jekyll::Filters
-
-
 
     html =<<-HTML
 ---
