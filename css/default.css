@@ -11,3 +11,12 @@ footer {
 	width:  40px;
 	height:  40px;
 }
+
+.project-screenshot {
+	width: 200px;
+  border: 1px solid black;
+}
+
+.project-overview {
+  min-height: 125px;
+}
