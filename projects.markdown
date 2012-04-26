@@ -64,7 +64,7 @@ title: Moje projekty
 {% capture perex %}
 Knihovna pro certifikované https požadavky na [Mac OS X](http://cs.wikipedia.org/wiki/Mac_OS_X_Lion) v {{ruby_link}} prostředí.{% endcapture %}
 {% capture description %}
-V současné době (24.4.2012) je k Mac OS X Lion přibalen seznam certifikačních autorit poněkud staršího data. To v {{ruby_link}} skriptech způsobuje, že i servery, které mají svůj certifikát v pořadku, jsou označeny za nedůveryhodné. 
+V současné době (24.4.2012) je k Mac OS X Lion přibalen seznam certifikačních autorit poněkud staršího data. To v {{ruby_link}} skriptech způsobuje, že i servery, které mají svůj certifikát v pořádku, jsou označeny za nedůveryhodné. 
 
 Tato moje knihovna používá [neoficiální seznam certifikačních autorit ze stránek projektu cURL](http://curl.haxx.se/docs/caextract.html). Použitím mojí knihovny, jsou automaticky všechny https požadavky, prováděny přes knihovnu [net/http](http://ruby-doc.org/stdlib-1.9.3/libdoc/net/http/rdoc/Net/HTTP.html), prověřovány za pomocí certifikačních autorit z tohoto seznamu. Nástroj přibalený v mé knihovně je také schopen používaný seznam certifikačních autorit aktualizovat.
 {% endcapture %}
