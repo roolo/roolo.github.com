@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>
+		  {% if page.title != empty %}
+		  {{ page.title }} &mdash;
+		  {% endif %}
 			{{site.title}}
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">

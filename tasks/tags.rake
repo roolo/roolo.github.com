@@ -20,7 +20,7 @@ namespace :tags do
       html << <<-HTML
 ---
 layout: default
-title: Postings tagged "#{category}"
+title: Posty s tagem "#{category}"
 ---
     <h2 id="#{category}">Posty otagovány "#{category}"</h2>
     <table class="table table-striped">

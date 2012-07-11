@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blogysek Mailicka
+title: ''
 ---
 {% for post in site.posts %}
 <article>
