@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="cs">
-	<head>
-		<meta charset="utf-8">
-		<title>
-			{{page.title}} &mdash; {{site.title}}
-		</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<meta name="author" content="Mailo Svetel">
-		
-		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-		<!--[if lt IE 9]>
-		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<!-- Le styles -->
-		<link href="/css/default.css" rel="stylesheet" type="text/css">
-		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
-		
-		<!-- RSS -->
-		<link rel="alternate" title="Posty" href="/rss.xml" type="application/rss+xml">
-		<link rel="shortcut icon" href="/favicon.ico">
-		
-	</head>
-	<body>
-		<div class="container">
-			  {% include header.html %}
-        <div class="row">
-          <div id="main-content" class="span8">
-          <article>
-            <h2>{{page.title}}</h2>
+<head>
+  <meta charset="utf-8">
+  <title>
+    {{page.title}} &mdash; {{site.title}}
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Mailo Svetel">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!-- Le styles -->
+  <link href="/css/default.css" rel="stylesheet" type="text/css">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+
+  <!-- RSS -->
+  <link rel="alternate" title="Posty" href="/rss.xml" type="application/rss+xml">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+</head>
+<body>
+<div class="container">
+  {% include header.html %}
+  <div class="row">
+    <div id="main-content" class="span8">
+      <article>
+        <h2>{{page.title}}</h2>
             <span class="meta">
               <a href="https://plus.google.com/106157307077731636106?rel=author">Mailo Světel</a>
               {{page.date | date: "%d.%m.%Y"}}
             </span>
-            <p class="post-excerpt">
-                {{page.excerpt}}
-            </p>
-            <hr/>
-            {{content}}
-          </article>
-          <hr id="excerpt-content-divide" />
-                      
-					{% include google-plus.html %}
-					{% include evernote.html %}
-          {% include disqus.html %}
-          
-          </div>
-          <aside>
-          {% include sidebar-post.html %}
-          </aside>
-          <div style="clear:both;"></div>
-          <footer>
-            {% include footer.html %}
-          </footer>
-  		  </div>
-		</div>
-		
-  	{% include bootstrap-js.html %}
-		{% include google-analytics.html %} 
-	</body>
+
+        <p class="post-excerpt">
+          {{page.excerpt}}
+        </p>
+        <hr/>
+        {{content}}
+      </article>
+      <hr id="excerpt-content-divide"/>
+
+      {% include google-plus.html %}
+      {% include evernote.html %}
+      {% include disqus.html %}
+
+    </div>
+    <aside>
+      {% include sidebar-post.html %}
+    </aside>
+    <div style="clear:both;"></div>
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </div>
+</div>
+
+{% include bootstrap-js.html %}
+{% include google-analytics.html %}
+</body>
 </html>
