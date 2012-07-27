@@ -1,0 +1,9 @@
+---
+layout: none
+---
+{"data": [  {% for post in site.posts %}
+{"identifier": "{{post.title}}",
+"title": "{{post.title}}",
+"content_blob": "{{post.excerpt | append: post.content | strip_html | strip_newlines | escape}}"
+}{% unless forloop.length == forloop.index %},{% endunless %}{% endfor %}
+]}
