@@ -2,8 +2,9 @@
 layout: default
 title: ''
 ---
+<section id="articles">
 {% for post in site.posts %}
-<article>
+<article data-identifier="{{post.title}}">
   <h2><a href="{{post.url}}">{{post.title}}</a></h2>
   <p>
     {{post.date | date:"%d.%m.%Y %H:%M"}}
@@ -17,3 +18,4 @@ title: ''
 
 </article>
 {% endfor %}
+</section>
