@@ -1,18 +1,16 @@
+namespace :generate do
+  desc 'Generates all url related things'
+  task url: %w(urls:redirects_old_to_new)
+  namespace :url do
+    desc 'Generates redirection pages for those which has it'
+    task :redirects_old_to_new do
+      puts 'Processing posts'
+      site = jekyll_site
 
-namespace :urls do
-  desc 'Makes all url related things'
-  task :all do
-    Rake::Task['urls:redirects_old_to_new'].execute
-  end
-  
-  desc 'Generates redirection pages for those which has it'
-  task :redirects_old_to_new do
-    puts 'Processing posts'
-    site = jekyll_site
-
-    site.posts.each do |post|
-      puts 'Processing ' + post.data['title']
-      generate_aliases(post.url, post.data['alias'], site)
+      site.posts.each do |post|
+        puts 'Processing ' + post.data['title']
+        generate_aliases(post.url, post.data['alias'], site)
+      end
     end
   end
 end

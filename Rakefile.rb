@@ -13,12 +13,13 @@ def jekyll_site
     @jekyll_site_var = Jekyll::Site.new(jekyll_options)
     @jekyll_site_var.read_posts('')
   end
-  
+
   @jekyll_site_var
 end
 
 import 'tasks/tags.rake'
 import 'tasks/url.rake'
+import 'tasks/articles.rake'
 
 task :default do
   Rake::Task['tags:all'].execute
