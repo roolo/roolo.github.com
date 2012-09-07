@@ -1,45 +1,40 @@
-var isAccessibleSearch = true;
-jQuery('#search-field').keyup(function(j){
-  searchField = j.currentTarget;
+angular.module('rooland', []);
 
-  if(isAccessibleSearch) {
-    isAccessibleSearch = false;
-    searchField.disabled = 'disabled';
-  } else {
-    return
-  }
 
-  searchTerm = searchField.value;
-  articlesData = jQuery.parseJSON(jQuery('#articles').attr('data-articles'));
 
-  if(articlesData == null) {
-//      if(true) {
-    $.get(  '/articles.json',
-            (new Date().getTime()),
-            function(data, textStatus, jqXHR){
-      jQuery('#articles').attr('data-articles', data);
-      articlesData = jQuery.parseJSON(data);
-    }).error(function(e){
-          console.log('e.state()');
-          console.log(state());
-        });
+function ArticlesCtrl($scope, $http) {
+  $scope.articlesData = {};
 
-    if(articlesData == null) {
-      console.log('Does not compute!');
-      return
+  $scope.initSearchData = function() {
+    $scope.loadingData = true;
+    $http.get('/articles.json')
+      .success(function (response){
+        $scope.articlesData.data = response.data;
+      })
+    ;
+  };
+
+  $scope.searchForTerm = function() {
+    var searchPattern = new RegExp($scope.searchTerm);
+
+    if(angular.isDefined($scope.articlesData.data)) {
+      $scope.foundArticles = jQuery.grep($scope.articlesData.data,function(a){
+        return searchPattern.test(a.title);
+      })
+        .map(function(a){return a.identifier;});
+    } else {
+      $scope.initSearchData();
     }
-  }
 
-  var searchPattern = new RegExp('/'+searchTerm+'/',im);
+  };
 
-  jQuery.map(articlesData['data'], function(post,index){
-    console.log(searchPattern.test(post['title']));
-    console.log(searchPattern.test(post['content_blob']));
+  $scope.hasNotFound = function(articleIdentifier) {
+    if(angular.isDefined($scope.searchTerm) && $scope.searchTerm !== '' && angular.isDefined($scope.articlesData.data)){
+      return jQuery.inArray(articleIdentifier, $scope.foundArticles);
+    } else {
+      return false;
+    }
+  };
+}
 
-    return false
-  });
-
-
-  searchField.removeAttribute('disabled');
-  isAccessibleSearch = true;
-});
+ArticlesCtrl.$inject = ['$scope', '$http'];

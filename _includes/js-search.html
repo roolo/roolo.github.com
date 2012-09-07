@@ -1,3 +1,7 @@
 <section class="row">
-  <input type="text" id="search-field" size="16" placeholder="Search Articles...">
+  <input  type="text" id="search-field" size="16"
+          placeholder="Search Articles..."
+          ng-model="searchTerm"
+          ng-change="searchForTerm()"
+          ng-model-instant />
 </section>
