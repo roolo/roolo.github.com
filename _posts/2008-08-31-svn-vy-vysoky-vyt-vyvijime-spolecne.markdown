@@ -1,7 +1,7 @@
 --- 
 name: svn-vy-vysoky-výt-vyvijime-spolecne
 layout: post
-title: "SVN - Vy, vysok\xC3\xBD, v\xC3\xBDt, vyv\xC3\xADj\xC3\xADme spole\xC4\x8Dn\xC4\x9B"
+title: "SVN - Vy, vysoký, výt, vyvíjíme společně"
 date: 2008-08-31 00:24:00 +02:00
 categories: 
 - vývoj

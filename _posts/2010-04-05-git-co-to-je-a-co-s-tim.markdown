@@ -1,7 +1,7 @@
 --- 
 name: git-co-to-je-a-co-s-t-m
 layout: post
-title: "Git - co to je a co s t\xC3\xADm"
+title: "Git - co to je a co s tím"
 date: 2010-04-05 21:30:00 +02:00
 alias: /programovani/2010/04/git-co-to-je-a-co-s-tim/
 categories: 

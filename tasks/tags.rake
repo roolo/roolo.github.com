@@ -4,14 +4,10 @@ def filyfy string
   conv.iconv(string).gsub(/\W*/, '').downcase
 end
 
-namespace :tags do
-  desc 'Generate all tags related things'
-  task :all do
-    Rake::Task['tags:pages'].execute
-    Rake::Task['tags:cloud'].execute
-    Rake::Task['tags:sitemap'].execute
-  end
+desc 'Generate all tags related things'
+task tags: %w(tags:pages tags:cloud tags:sitemap)
 
+namespace :tags do
   desc 'Generate tags page'
   task :pages do
     puts "Generating tags..."

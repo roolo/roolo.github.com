@@ -1,10 +1,8 @@
 
+desc 'Makes all url related things'
+task urls: %w(urls:redirects_old_to_new)
+
 namespace :urls do
-  desc 'Makes all url related things'
-  task :all do
-    Rake::Task['urls:redirects_old_to_new'].execute
-  end
-  
   desc 'Generates redirection pages for those which has it'
   task :redirects_old_to_new do
     puts 'Processing posts'
