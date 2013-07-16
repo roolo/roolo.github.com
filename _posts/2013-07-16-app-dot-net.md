@@ -1,7 +1,7 @@
 ---
 layout: post
 title: App.net
-categories:   [social,komunikace,webové služby,Služby]
+categories:   [social, komunikace, webové služby, Služby]
 excerpt: |-
   V tomto postu se podíváme na tak trochu jiný Jabber/Twitter/Facebook. App.net je platformou, což je pro technicky nezaměřené těžké si představit. Pro koncového uživatele to vlastně není nic. Je to něco, co využijí tvůrci aplikací jako je Twitter, či Facebook. Taková platforma se pak stará o uložení obrázku z příspěvku, příspěvku jako takového a tak podobně.
   
