@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arduino – Poteciometr a diody
-categories:   [arduino, začátečník, programování]
+categories:   [arduino, začátečník, programování, vývoj, vývojář]
 excerpt: |-
   Pouze krátká ukázka jednoho z mých Arduinových pokusů.
   
