@@ -20,7 +20,4 @@ end
 import 'tasks/tags.rake'
 import 'tasks/url.rake'
 
-task :default do
-  Rake::Task['tags:all'].execute
-  Rake::Task['urls:all'].execute
-end
+task default: %w(tags urls)
