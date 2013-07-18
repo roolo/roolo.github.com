@@ -6,7 +6,7 @@ title: ''
 <article>
   <h2><a href="{{post.url}}">{{post.title}}</a></h2>
   <p>
-    {{post.date | date:"%d.%m.%Y %H:%M"}}
+    {{post.date | date:"%d.%m.%Y"}}
   </p>
   <p>
     {{post.excerpt}}
