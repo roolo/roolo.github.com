@@ -1,4 +1,5 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
-gem "jekyll", "0.11.0" # This version is used by Github. See https://help.github.com/articles/using-jekyll-with-pages
-gem "rake"
+gem 'github-pages', '~> 10'
+gem 'iconv', '~> 1.0.3'
+gem 'rake'

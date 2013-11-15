@@ -1,3 +1,5 @@
+require 'iconv'
+
 # encoding: utf-8
 def filyfy string
   conv  = Iconv.new("ASCII//TRANSLIT", "UTF-8")
