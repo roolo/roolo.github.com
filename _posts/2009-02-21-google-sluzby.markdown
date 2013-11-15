@@ -9,7 +9,7 @@ categories:
 - Služby
 - webové služby
 - google
-- záčátečník
+- začátečník
 excerpt:  |-
   V tomto článku popíši služby a produkty společnosti Google, které nejvíce používám a ty, které mi příjdou nejzajímavější. Pro ty kdo již využívají <a title="Web Google.cz" href="http://www.google.cz/">vyhledávač Google</a> jen podotknu, že v dnešní době již spočnost Google nenabízí jen vyhledávač, ale i <a title="Výčet služeb společnosti Google" href="http://www.google.cz/intl/cs/options/">spoustu jiných služeb</a> a neustále <a title="Služby společnosti Google, které jsou zatím ve vývoji, ale již poskytnuty veřejnosti" href="http://labs.google.com/">přibývají nové</a>.
 

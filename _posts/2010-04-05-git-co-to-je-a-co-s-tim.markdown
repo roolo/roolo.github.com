@@ -10,7 +10,7 @@ categories:
 - programování
 - kolaborace
 - vývoj
-- záčátečník
+- začátečník
 excerpt:  |-
   V tomto postu popíšu takový základ fungování gitu a příkazy, které použijete při práci nejčastěji.
 

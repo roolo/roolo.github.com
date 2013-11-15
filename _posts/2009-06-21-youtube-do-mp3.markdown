@@ -8,7 +8,7 @@ categories:
 - služby
 - webové služby
 - mutlimedia
-- záčátečník
+- začátečník
 
 excerpt:  |-
   Čas od času  se mě kamarádky ptají jak dostat video z Youtube do mp3, aby to mohli poslouchat ve svych chytrych krabickach. Tady je tedy post, ktery to popisuje.
