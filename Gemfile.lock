@@ -1,14 +1,16 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
+    coderay (1.1.0)
     colorator (0.1)
     commander (4.1.5)
       highline (~> 1.6.11)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
+    formatador (0.2.4)
     github-pages (10)
       RedCloth (= 4.2.9)
       jekyll (= 1.3.0)
@@ -17,6 +19,18 @@ GEM
       maruku (= 0.6.1)
       rdiscount (= 2.1.7)
       redcarpet (= 2.3.0)
+    guard (1.8.3)
+      formatador (>= 0.2.4)
+      listen (~> 1.3)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+    guard-jekyll (1.4.0)
+      guard (>= 1.1.0)
+      jekyll
+    guard-minitest (1.3.1)
+      guard (>= 1.8)
+      minitest (>= 2.1)
     highline (1.6.20)
     iconv (1.0.3)
     jekyll (1.3.0)
@@ -35,9 +49,19 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
+    lumberjack (1.0.4)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    method_source (0.8.2)
+    mini_portile (0.5.2)
+    minitest (5.3.0)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
     posix-spawn (0.3.6)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -45,6 +69,8 @@ GEM
     rack-jekyll (0.4.1)
       jekyll (>= 0.12.0, < 2.0)
       rack (~> 1.5.0)
+    rack-test (0.6.2)
+      rack (>= 1.0)
     rake (10.1.0)
     rb-fsevent (0.9.3)
     rb-inotify (0.9.2)
@@ -54,7 +80,9 @@ GEM
     rdiscount (2.1.7)
     redcarpet (2.3.0)
     safe_yaml (0.9.7)
+    slop (3.4.7)
     syntax (1.0.0)
+    thor (0.18.1)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -62,6 +90,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 10)
+  guard-jekyll
+  guard-minitest
   iconv (~> 1.0.3)
+  nokogiri
   rack-jekyll
+  rack-test
   rake

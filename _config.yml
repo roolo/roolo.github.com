@@ -6,4 +6,4 @@ timezone: '+01:00'
 
 disqus_shortname: mailuv-blog-rooland
 
-exclude: [CNAME, Gemfile, Gemfile.lock, Rakefile.rb, README, tasks]
+exclude: [CNAME, Gemfile, Gemfile.lock, Rakefile.rb, README, tasks, config.ru, spec, tmp, Guardfile]
