@@ -57,6 +57,6 @@ Těmto modulům se říká [Formule](http://docs.saltstack.com/topics/convention
 (né ty co dělaj rámus a lítaj vzduchem ;)).
 
 
-Tvým úkolem Jíme, pokud ho přijmeš, je si ty nástroje vyzkoušet a říct mi svůj
+Tvým úkolem Jime, pokud ho přijmeš, je si ty nástroje vyzkoušet a říct mi svůj
 názor.
 
