@@ -1,7 +1,7 @@
 
   <url>
     <loc>{{site.url}}/tags.html</loc>
-    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
@@ -36,7 +36,7 @@
       
   <url>
     <loc>{{site.url}}/tag/dev.html</loc>
-    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -162,7 +162,7 @@
       
   <url>
     <loc>{{site.url}}/tag/pokrocily.html</loc>
-    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -246,7 +246,7 @@
       
   <url>
     <loc>{{site.url}}/tag/tool.html</loc>
-    <lastmod>2012-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -281,21 +281,21 @@
       
   <url>
     <loc>{{site.url}}/tag/vyvoj.html</loc>
-    <lastmod>2013-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/vyvojar.html</loc>
-    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/webovesluzby.html</loc>
-    <lastmod>2013-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
