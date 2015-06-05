@@ -22,6 +22,7 @@ Poslední okno, které často uvidíme je Viewer. Toto okno nám zobrazuje výst
 Napřel jsem část svých sil do kreslení a občas si dělám "time-lapse". Je to zrychlený video záznam z mého snažení. Když to takhle někomu ukáži, tak se mne nejdříve zeptá kolik je synkovi co to kreslil a pak následuje otázka "Jak dlouho si to dělal". Když už time-lapse existuje a když už jí někomu ukážu, tak takovou věc dávno nevím a jak dlouho jsem dělal nějaké dílčí věci, to už nevím vůbec. Proto jsem si udělal kompozici, která mi vepíše průběžný čas záznamu přímo do videa. Když pak video zrychlím tak je v něm vidět jak celkový čas na konci, tak průběžný čas v průběhu.
 
 ## Jak na to
+
 ### Import videa
 Jako první budu potřebovat dostat video do QC. V PL je k tomu patch Movie importer (dole je vyhledávání). Parametry patche si zobrazíme jejich tlačítkem Parameters v toolbaru. Vidíme že má patch jeden vstup a to Movie Location. Je to normalní text, do kterého zadáme cestu k souboru. Pokud se vám nechce psát cestu k souboru videa, tak stačí video jenom přetáhnout z Finderu do QC a automaticky se přidá Movie importer se správnou cestou k souboru.
 Když budeme chtít toto video použít, tak k tomu máme výstup (puntík vpravo) Image.
