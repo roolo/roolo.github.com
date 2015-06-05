@@ -68,6 +68,7 @@ Kdekoliv kde se v QC řeší délka, výška, může být matoucí, že zde sch�
 Pokud bychom třeba chtěli, aby naše video bylo přes celou výstupní plochu, tak v Patch Inspectoru nastavíme Billboardu zobrazujícímu video Width na 2, což odpovídá celému rozsahu ( -1 -- +1 ). Šířka se automaticky dopočítá, jedná se o defaultní nastavení v Settings Billboardu, které je možné zmenit.
 
 ### Pořádek
+
 #### Macro patche
 Kliknutím na Create Macro ho vytvoříme a následným double klikem do obsahu ho můžeme začít plnit. Občas se ale člověk dostane do situace, kdy už toho má v Root patchi moc a chtěl by zapouzdřovat logické celky. To je možné označením Patchů, které chceme v novém logickém celku a následným kliknutím na Create Macro. Vytvoří se nám Macro patch obsahující dříve vybrané Patche.
 
