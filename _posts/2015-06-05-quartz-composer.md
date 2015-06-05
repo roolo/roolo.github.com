@@ -13,7 +13,7 @@ Quartz Composer (QC) je nástroj pro tvorbu kompozicí/maker na úpravu vstupní
 QC je z dílen firmy Apple. Dříve byl součástí Xcode, později byl z Xcode vyčleněn jako samostatný nástroj. Nejedná se o součást systému a pokud ho chce člověk používat, tak je jej nutné stáhnout ze stránek Apple pro vývojáře. QC je součástí balíčku [Graphics Tools for Xcode](https://developer.apple.com/downloads/index.action?q=quartz).
 
 ### Jak to funguje
-Prní okno QC co uživatel uvidí je Root Macro Patch. V něm je dílo které tvoříme. Může obsahova buďto Patche -- úpravy vstupu, nebo další Macro Patche -- zapouzdřené logické celky obsahující zase Patche a Macro Patche.
+První okno QC co uživatel uvidí je Root Macro Patch. V něm je dílo které tvoříme. Může obsahova buďto Patche -- úpravy vstupu, nebo další Macro Patche -- zapouzdřené logické celky obsahující zase Patche a Macro Patche.
 Patch si můžeme představit jako skříňku do které něco pošleme a ono nám to z ní vyleze upravené (taková "počapanější" mikrovlnka).
 Seznam hotových patchů je k nalezení v Patch Library (PL; ikonka v toolbaru úplně vlevo).
 Poslední okno, které často uvidíme je Viewer. Toto okno nám zobrazuje výstup z naší kompozice.
@@ -57,7 +57,7 @@ Tím jsme dokončili úkol ze začátku postupu. a naše kompozice vypadá zhrub
 
 ![Composition -- Final](https://files.app.net/7hmh9hCXV.png)
 
-Většina lidí nejspíš bude mít spoje mezi vstupy a výstupy zvlněné. Já je mám rovné, protože mám nainstalované [Origami](http://facebook.github.io/origami/download/) od Facebooku. To je dobré prototypování mobilních aplikací a také umožňuje vykreslovat výsledný obraz kompozice do mobilní aplikace na zařízení připojeném kabelem.
+Většina lidí nejspíš bude mít spoje mezi vstupy a výstupy zvlněné. Já je mám rovné, protože mám nainstalované [Origami](http://facebook.github.io/origami/download/) od Facebooku. To je dobré na prototypování mobilních aplikací a také umožňuje vykreslovat výsledný obraz kompozice do mobilní aplikace na zařízení připojeném kabelem.
 
 Pokud chcete text přesunout, nebo zmenšit, hrajte si v Patch Inspectoru se vstupy Billboardu zobrazujícího čas.
 
