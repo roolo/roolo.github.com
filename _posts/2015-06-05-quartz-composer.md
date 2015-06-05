@@ -66,7 +66,7 @@ Pokud chcete text přesunout, nebo zmenšit, hrajte si v Patch Inspectoru se vst
 
 ### Jednotky
 Kdekoliv kde se v QC řeší délka, výška, může být matoucí, že zde schází jednotka. Jedná se o souřadnice, nebo jednu hodnotu ze soustavy -1 -- +1. Více v [Quartz Composer User Guide -- The Coordinate System](https://developer.apple.com/library/mac/documentation/GraphicsImaging/Conceptual/QuartzComposerUserGuide/qc_concepts/qc_concepts.html#//apple_ref/doc/uid/TP40005381-CH212-DontLinkElementID_5)
-Pokud bychom třeba chtěli, aby naše video bylo přes celou výstupní plochu, tak v Patch Inspectoru nastavíme Billboardu zobrazujícímu video Width na 2, což odpovídá celému rozsahu ( -1 -- +1 ). Šířka se automaticky dopočítá, jedná se o defaultní nastavení v Settings Billboardu, které je možné zmenit.
+Pokud bychom třeba chtěli, aby naše video bylo přes celou výstupní plochu, tak v Patch Inspectoru nastavíme Billboardu zobrazujícímu video Width na 2, což odpovídá celému rozsahu ( -1 -- +1 ). Height se automaticky dopočítá, jedná se o defaultní nastavení v Settings Billboardu, které je možné zmenit.
 
 ### Pořádek
 
