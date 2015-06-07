@@ -10,7 +10,7 @@ excerpt: |-
 
 ## Co je Quartz Composer
 Quartz Composer (QC) je nástroj pro tvorbu kompozicí/maker na úpravu vstupních dat. Tato tvorba je uživateli zpřístupněna bez nutnosti znalosti nějakého programovacího jazyka. Uživatel/vývojář pracuje se vstupy vizuálně.
-QC je z dílen firmy Apple. Dříve byl součástí Xcode, později byl z Xcode vyčleněn jako samostatný nástroj. Nejedná se o součást systému a pokud ho chce člověk používat, tak je jej nutné stáhnout ze stránek Apple pro vývojáře. QC je součástí balíčku [Graphics Tools for Xcode](https://developer.apple.com/downloads/index.action?q=quartz).
+QC je z dílen firmy Apple. Dříve byl součástí Xcode, později byl z Xcode vyčleněn jako samostatný nástroj. Nejedná se o součást systému a pokud ho chce člověk používat, tak je jej nutné stáhnout ze stránek Apple pro vývojáře. QC je součástí balíčku [Graphics Tools for Xcode](https://developer.apple.com/downloads/?q=graphics%20tools%20for%20Xcode).
 
 ### Jak to funguje
 První okno QC co uživatel uvidí je Root Macro Patch. V něm je dílo které tvoříme. Může obsahova buďto Patche -- úpravy vstupu, nebo další Macro Patche -- zapouzdřené logické celky obsahující zase Patche a Macro Patche.
