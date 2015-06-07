@@ -54,7 +54,7 @@ Dostaneme se k nim v Patch Inspectoru přes horní selectbox. V nastavení patch
 
 ![Cropped date part](https://files.app.net/7hm7bbcfE.png)
 
-Tím jsme dokončili úkol ze začátku postupu. a naše kompozice vypadá zhruba takto.
+Tím jsme dokončili úkol ze začátku postupu a naše kompozice vypadá zhruba takto.
 
 ![Composition -- Final](https://files.app.net/7hmh9hCXV.png)
 
