@@ -1,7 +1,7 @@
 
   <url>
     <loc>{{site.url}}/tags.html</loc>
-    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
@@ -9,6 +9,13 @@
   <url>
     <loc>{{site.url}}/tag/ansible.html</loc>
     <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+      
+  <url>
+    <loc>{{site.url}}/tag/apple.html</loc>
+    <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -36,14 +43,14 @@
       
   <url>
     <loc>{{site.url}}/tag/dev.html</loc>
-    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/dualhead.html</loc>
-    <lastmod>2011-01-16T18:06:24Z</lastmod>
+    <lastmod>2011-01-16T18:06:24+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -64,21 +71,21 @@
       
   <url>
     <loc>{{site.url}}/tag/google.html</loc>
-    <lastmod>2009-12-24T18:48:00Z</lastmod>
+    <lastmod>2009-12-24T18:48:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/icq.html</loc>
-    <lastmod>2009-12-15T20:27:00Z</lastmod>
+    <lastmod>2009-12-15T20:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/jabber.html</loc>
-    <lastmod>2009-12-15T20:27:00Z</lastmod>
+    <lastmod>2009-12-15T20:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -92,7 +99,7 @@
       
   <url>
     <loc>{{site.url}}/tag/kolaborace.html</loc>
-    <lastmod>2010-04-05T19:30:00Z</lastmod>
+    <lastmod>2010-04-05T19:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -106,7 +113,7 @@
       
   <url>
     <loc>{{site.url}}/tag/linux.html</loc>
-    <lastmod>2011-01-16T18:06:24Z</lastmod>
+    <lastmod>2011-01-16T18:06:24+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -120,14 +127,14 @@
       
   <url>
     <loc>{{site.url}}/tag/mobilni.html</loc>
-    <lastmod>2008-05-25T00:30:00Z</lastmod>
+    <lastmod>2008-05-25T00:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/mobily.html</loc>
-    <lastmod>2008-05-25T00:30:00Z</lastmod>
+    <lastmod>2008-05-25T00:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -141,21 +148,21 @@
       
   <url>
     <loc>{{site.url}}/tag/multihead.html</loc>
-    <lastmod>2011-01-16T18:06:24Z</lastmod>
+    <lastmod>2011-01-16T18:06:24+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/mutlimedia.html</loc>
-    <lastmod>2009-06-21T20:31:00Z</lastmod>
+    <lastmod>2009-06-21T20:31:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/netbeans.html</loc>
-    <lastmod>2009-12-18T22:04:00Z</lastmod>
+    <lastmod>2009-12-18T22:04:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -225,7 +232,7 @@
       
   <url>
     <loc>{{site.url}}/tag/subversion.html</loc>
-    <lastmod>2009-12-18T22:04:00Z</lastmod>
+    <lastmod>2009-12-18T22:04:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -239,28 +246,28 @@
       
   <url>
     <loc>{{site.url}}/tag/sit.html</loc>
-    <lastmod>2009-12-31T23:59:00Z</lastmod>
+    <lastmod>2009-12-31T23:59:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/tool.html</loc>
-    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/twinview.html</loc>
-    <lastmod>2011-01-16T18:06:24Z</lastmod>
+    <lastmod>2011-01-16T18:06:24+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/ubuntu.html</loc>
-    <lastmod>2011-01-16T18:06:24Z</lastmod>
+    <lastmod>2011-01-16T18:06:24+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -281,14 +288,14 @@
       
   <url>
     <loc>{{site.url}}/tag/vyvoj.html</loc>
-    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
       
   <url>
     <loc>{{site.url}}/tag/vyvojar.html</loc>
-    <lastmod>2014-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -302,7 +309,7 @@
       
   <url>
     <loc>{{site.url}}/tag/zacatecnik.html</loc>
-    <lastmod>2013-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
