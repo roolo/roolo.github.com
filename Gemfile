@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', '~> 38'
+gem 'github-pages', '~> 45'
 gem 'rack-jekyll'
 gem 'iconv', '~> 1.0.3'
 gem 'rake'
