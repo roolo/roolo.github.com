@@ -11,7 +11,7 @@ def jekyll_site
       )
     )
     @jekyll_site_var = Jekyll::Site.new(jekyll_options)
-    @jekyll_site_var.read_posts('')
+    @jekyll_site_var.posts
   end
   
   @jekyll_site_var
